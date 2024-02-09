@@ -1,0 +1,390 @@
+type = menu
+
+customization-meta {
+  identifier = wiki
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1013
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-right
+  shape = rectangle
+  color = #ffffff
+  x = -202
+  width = 193
+  action = addshape
+  actionid = b61832df-0482-41b6-9c83-f6f8cf11f7271683805128702
+  y = -491
+  height = 464
+}
+
+customization {
+  orientation = mid-right
+  list_values = Create;Malum;Ars-nouveau;Farmer-delight;Alex_mob;Supplementarie;
+  slider_type = list
+  linked_variable = menu
+  x = -196
+  width = 181
+  action = custom_layout_element:fancymenu_customization_item_slider
+  actionid = d9858494-27db-4fe2-b46c-b42e045b1b311683805395811
+  y = 198
+  height = 19
+}
+
+customization {
+  path = config/fancymenu/customization/menu/extruder.png
+  orientation = top-left
+  x = 13
+  width = 74
+  action = addtexture
+  actionid = 92f60cf1-9cce-4aa7-9deb-cb14bf92b3441684081346804
+  y = 15
+  height = 77
+}
+
+customization {
+  path = config/fancymenu/customization/menu/bruleurblazeenchant.png
+  orientation = top-left
+  x = 657
+  width = 56
+  action = addtexture
+  actionid = b71c6117-a2c6-47a9-a115-6b33fc5b50fd1684081441256
+  y = 41
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/controleurdevitesse.png
+  orientation = top-left
+  x = 149
+  width = 78
+  action = addtexture
+  actionid = 0f8d80d5-9111-49ce-9536-d1a399b8b3f91684081483639
+  y = 153
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/jetpack.png
+  orientation = top-left
+  x = 653
+  width = 65
+  action = addtexture
+  actionid = 9aac0c85-763a-473f-805c-2782a3e29c6a1684081501722
+  y = 345
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/panneauafficheur.png
+  orientation = top-left
+  x = 9
+  width = 162
+  action = addtexture
+  actionid = 558321cd-4e2d-4b68-b2ac-2197dc49ec5c1684081517098
+  y = 427
+  height = 59
+}
+
+customization {
+  path = config/fancymenu/customization/menu/perceuse.png
+  orientation = top-left
+  x = 596
+  width = 61
+  action = addtexture
+  actionid = 84f87eb8-98ed-4c52-ad7e-354f52ae8bbe1684081535682
+  y = 244
+  height = 35
+}
+
+customization {
+  path = config/fancymenu/customization/menu/boiteaoutils.png
+  orientation = top-left
+  x = 307
+  width = 54
+  action = addtexture
+  actionid = ebd8921b-2703-4679-8d56-d42fd41a62071684081563248
+  y = 302
+  height = 56
+}
+
+customization {
+  path = config/fancymenu/customization/menu/batondesymetrie.png
+  orientation = top-left
+  x = 290
+  width = 42
+  action = addtexture
+  actionid = ac701588-e6fb-4add-8075-d58a15719c2e1684081608611
+  y = 190
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche.png
+  orientation = top-left
+  x = 340
+  width = 67
+  action = addtexture
+  actionid = 5cce9490-d824-48ab-a2f7-60b1d16c109e1684082933202
+  y = 269
+  height = 33
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche2.png
+  orientation = top-left
+  x = 592
+  width = 59
+  action = addtexture
+  actionid = 4c27857f-1130-44b4-a115-54a6886de2b81684082950928
+  y = 80
+  height = 11
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = c7e4ddd2-1bb0-47cd-be77-d1aed2b967b21684082965245
+  y = 10
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche3.png
+  orientation = top-left
+  x = 614
+  width = 69
+  action = addtexture
+  actionid = f14b0a8a-43da-4494-af2f-2fd129e41bb31684082973938
+  y = 446
+  height = 27
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche5.png
+  orientation = top-left
+  x = 176
+  width = 19
+  action = addtexture
+  actionid = 69386edf-c3ab-40ab-9eee-2f62b2538a9e1684082998844
+  y = 412
+  height = 17
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche6.png
+  orientation = top-left
+  x = 323
+  width = 11
+  action = addtexture
+  actionid = 4f189b53-be3a-412c-adf2-b7a612c24fac1684083066531
+  y = 180
+  height = 27
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche2.a.png
+  orientation = top-left
+  x = 71
+  width = 65
+  action = addtexture
+  actionid = 4840ad0a-7a6c-419c-a7c8-dbb5c8455af91684083326550
+  y = 71
+  height = 12
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche9.a.png
+  orientation = top-left
+  x = 190
+  width = 17
+  action = addtexture
+  actionid = f1ec005e-3bf8-4d0a-a2e6-a684b4547b901684084296404
+  y = 252
+  height = 41
+}
+
+customization {
+  path = config/fancymenu/customization/menu/fleche8.b.png
+  orientation = top-left
+  x = 548
+  width = 49
+  action = addtexture
+  actionid = c88d6236-5bce-4c8d-952d-390a02eafd381684084318180
+  y = 254
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = %n% L’extruder vous permet d’obtenir les principaux blocs naturels %n% tels que le granite, la diorite, l’andesite et la calcite.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 135
+  width = 330
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 660e6e8c-bf33-4dd9-9352-9bc1101ef2da1684085082711
+  y = 41
+  alignment = left
+  height = 29
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Grace au blaze burner%n%vous pouvez enchante des objets contre de l’xp liquide
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 374
+  width = 286
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 94027574-c42b-4ffc-8f54-d05092c793aa1684085164070
+  y = 93
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Le controleur de vitesse est limite a 64 tours sur le modpack
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 7
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b0b43748-b8b3-4b02-af1e-19ee990327b01684085230204
+  y = 299
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Le baton de symetrie est très pratique pour build !%n%Utilise-le a fond !!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 263
+  width = 265
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8457aee7-737e-45a0-a65b-35739bc202f01684085273454
+  y = 156
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = La perceuse mecanique peut casser davantage%n%de bloc avec son enchantement spécifique%n%elle ne consome que de l’eau et du fioul.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 473
+  width = 245
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8c093fdc-5e46-4cbb-8c34-415a846455df1684085358349
+  y = 212
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Le jetpack vous permet de voler facilement%n%jusqu’a une certaine hauteur !
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 442
+  width = 224
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3d10f615-dafb-42ac-b535-3033061cdf131684085481525
+  y = 428
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = La boite a outils est tres utile, lorsqu’on build elle permet de recuperer%n%et stocker beaucoup de ressource
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 367
+  width = 371
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d84f367a-e1d0-4d81-a767-568a11951b461684085615685
+  y = 307
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Les panneaux d’affichages vous permettes%n%d’afficher des textes ou d’autres elements%n%concernant des usines, machines, heures, stockages.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 65
+  width = 258
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 689045b9-cabc-4cea-b4ef-811c855c12ac1684085669009
+  y = 376
+  alignment = right
+  height = 40
+}
+

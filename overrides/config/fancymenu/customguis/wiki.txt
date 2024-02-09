@@ -1,0 +1,3 @@
+identifier = wiki
+title = Wiki
+allowesc = true

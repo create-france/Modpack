@@ -1,0 +1,71 @@
+{
+	"Prismarine Geodes": {
+		"Enable Prismarine Geode": true,
+	},
+	"Stone Ores Geodes": {
+		"Enable Emerald Geode": false,
+		"Enable Diamond Geode": false,
+		"Enable Lapis Geode": true,
+		"Enable Redstone Geode": true,
+	},
+	"Deepslate Ores Geodes": {
+		"Enable Deepslate Emerald Geode": false,
+		"Enable Deepslate Diamond Geode": false,
+	},
+	"Deep Dark Geodes": {
+		"Enable Echo Geode": true,
+		"Enable Sculk Emerald Geode": false,
+		"Enable Sculk Diamond Geode": false,
+	},
+	"Nether Geodes": {
+		"Enable Nether Quartz Geode": true,
+		"Enable Nether Gold Nugget Geode": true,
+		"Enable Nether Ancient Debris Geode": false,
+		"Enable Nether Glowstone Geode": true,
+	},
+	"Basalt Geodes": {
+		"Enable Basalt Glowstone Geode": true,
+		"Enable Basalt Ancient Debris Geode": false,
+		"Enable Basalt Ancient Quartz Geode": true,
+		"Enable Basalt Gold Nugget Geode": true,
+	},
+	"Blackstone Geodes": {
+		"Enable Blackstone Ancient Debris Geode": false,
+		"Enable Blackstone Gold Nugget Geode": true,
+		"Enable Blackstone Glowstone Geode": true,
+		"Enable Blackstone Quartz Geode": true,
+	},
+	"End Wrappist Geodes": {
+		"Enable Wrappist Geode": true,
+	},
+	"Swamp Celestite Geodes": {
+		"Enable Celestite Geode": true,
+	},
+	"Large Crystals": {
+		"Enable Large Nether Quartz Crystal": true,
+		"Enable Large Nether Glowstone Crystal": true,
+		"Enable Large Prismarine Crystal": true,
+		"Enable Large Echo Crystal": true,
+		"Enable Large End Wrappist Crystal": true,
+	},
+	"Rarity of Geodes": {
+		"Rarity of Ores Geode": 24,
+		"Rarity of Blackstone Glowstone Geode": 16,
+		"Rarity of Nether Quartz Geode": 16,
+		"Rarity of Swamp Geode": 24,
+		"Rarity of End Wrappist Geode": 24,
+		"Rarity of Echo Geode": 8,
+		"Rarity of Basalt Ancient Debris Geode": 16,
+		"Rarity of Blackstone Nugget Geode": 16,
+		"Rarity of Nether Ancient Debris Geode": 16,
+		"Rarity of Basalt Glowstone Geode": 16,
+		"Rarity of Basalt Gold Nugget Geode": 16,
+		"Rarity of Basalt Quartz Geode": 16,
+		"Rarity of Blackstone Quartz Geode": 16,
+		"Rarity of Nether Glowstone Geode": 16,
+		"Rarity of Blackstone Ancient Debris Geode": 16,
+		"Rarity of Rare Ores Geode": 36,
+		"Rarity of Nether Gold Nugget Geode": 16,
+		"Rarity of Prismarine Geode": 16,
+	},
+}

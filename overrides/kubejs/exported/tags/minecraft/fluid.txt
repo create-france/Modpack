@@ -1,0 +1,113 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 10, 2023, 1:05:09 PM
+
+#c:blood
+- fabricaeexnihilo:flowing_blood (from FabricaeExNihilo)
+- fabricaeexnihilo:blood (from FabricaeExNihilo)
+
+#c:ink
+- create_enchantment_industry:flowing_ink (from Create Enchantment Industry)
+- create_enchantment_industry:ink (from Create Enchantment Industry)
+
+#fabricaeexnihilo:witchwater
+- fabricaeexnihilo:flowing_witchwater (from FabricaeExNihilo)
+- fabricaeexnihilo:witchwater (from FabricaeExNihilo)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- create:flowing_honey (from Create)
+- create:honey (from Create)
+- create:flowing_chocolate (from Create)
+- create:chocolate (from Create)
+- milk:flowing_milk? (from Milk Lib)
+- milk:still_milk? (from Milk Lib)
+
+#fabricaeexnihilo:hot
+- #c:lava (from FabricaeExNihilo)
+- #techreborn:nitro_diesel? (from FabricaeExNihilo)
+
+#c:milk
+- fabricaeexnihilo:flowing_milk (from FabricaeExNihilo)
+- fabricaeexnihilo:milk (from FabricaeExNihilo)
+- milk:flowing_milk? (from Milk Lib)
+- milk:still_milk? (from Milk Lib)
+
+#c:tea
+- create:flowing_tea (from Create)
+- create:tea (from Create)
+
+#c:water
+- #minecraft:water? (from Fabric Convention Tags)
+
+#c:lava
+- #minecraft:lava? (from Fabric Convention Tags)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- createfoundry:molten_copper (from Create Foundry)
+- createfoundry:molten_copper_flowing (from Create Foundry)
+- createfoundry:molten_iron (from Create Foundry)
+- createfoundry:molten_iron_flowing (from Create Foundry)
+- createfoundry:molten_gold (from Create Foundry)
+- createfoundry:molten_gold_flowing (from Create Foundry)
+- createfoundry:molten_carbon (from Create Foundry)
+- createfoundry:molten_carbon_flowing (from Create Foundry)
+- createfoundry:molten_diamond (from Create Foundry)
+- createfoundry:molten_diamond_flowing (from Create Foundry)
+- createfoundry:molten_zinc (from Create Foundry)
+- createfoundry:molten_zinc_flowing (from Create Foundry)
+- createfoundry:molten_brass (from Create Foundry)
+- createfoundry:molten_brass_flowing (from Create Foundry)
+- createfoundry:molten_emerald (from Create Foundry)
+- createfoundry:molten_emerald_flowing (from Create Foundry)
+- createfoundry:molten_lapis (from Create Foundry)
+- createfoundry:molten_lapis_flowing (from Create Foundry)
+- createfoundry:molten_redstone (from Create Foundry)
+- createfoundry:molten_redstone_flowing (from Create Foundry)
+- createfoundry:molten_ancient_debris (from Create Foundry)
+- createfoundry:molten_ancient_debris_flowing (from Create Foundry)
+- createfoundry:molten_netherite (from Create Foundry)
+- createfoundry:molten_netherite_flowing (from Create Foundry)
+
+#create:diving_fluids
+- #minecraft:water (from Create)
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience (from Create Enchantment Industry)
+- create_enchantment_industry:experience (from Create Enchantment Industry)
+- create_enchantment_industry:flowing_hyper_experience (from Create Enchantment Industry)
+- create_enchantment_industry:hyper_experience (from Create Enchantment Industry)
+- #c:ink (from Create Enchantment Industry)
+
+#create:bottomless/deny
+
+#fabricaeexnihilo:true_lava
+- minecraft:lava (from FabricaeExNihilo)
+- minecraft:flowing_lava (from FabricaeExNihilo)
+
+#c:honey
+- create:flowing_honey (from Create)
+- create:honey (from Create)
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience (from Create Enchantment Industry)
+- create_enchantment_industry:experience (from Create Enchantment Industry)
+- create_enchantment_industry:flowing_hyper_experience (from Create Enchantment Industry)
+- create_enchantment_industry:hyper_experience (from Create Enchantment Industry)
+
+#c:brine
+- fabricaeexnihilo:flowing_brine (from FabricaeExNihilo)
+- fabricaeexnihilo:brine (from FabricaeExNihilo)
+
+#create:bottomless/allow
+- minecraft:water (from Create)
+- minecraft:lava (from Create)
+
+#c:chocolate
+- create:flowing_chocolate (from Create)
+- create:chocolate (from Create)
+
+#fabricaeexnihilo:true_water
+- minecraft:water (from FabricaeExNihilo)
+- minecraft:flowing_water (from FabricaeExNihilo)

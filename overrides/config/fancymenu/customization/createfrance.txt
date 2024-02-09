@@ -1,0 +1,646 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  input_string = video:config/fancymenu/customization/menu/background.mp4;islocal:true;loop:true;volume:100;
+  action = api:custombackground
+  type_identifier = fancymenu_extension:video_background
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1013
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -303
+  action = movebutton
+  y = -73
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 30
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 439
+  action = movebutton
+  y = 202
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 30
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customization/menu/option1.png
+  backgroundnormal = config/fancymenu/customization/menu/option.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 448
+  action = movebutton
+  y = -234
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customization/menu/quitter1.png
+  backgroundnormal = config/fancymenu/customization/menu/quitter.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -131
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 30
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customization/menu/boutondecouvrir1.png
+  backgroundnormal = config/fancymenu/customization/menu/boutondecouvrir.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 42b2c33e-91bf-43eb-b688-b30c1f3c218f1679246589446
+  y = 296
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f44b97ce-2b7f-4a6e-b27a-e254b0ed21d61679246589448
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 2e73b68f-a8ba-4818-b05c-3ddd580cbd1d1679246589449
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = fb2ee4c7-e46f-48b5-8d1c-d8a909e7b7ee1679246589450
+  y = 0
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 147
+  width = 7
+  action = addtexture
+  actionid = 5d477263-0d4c-4ff5-a25e-aa00cce5b7611679341516405
+  y = 149
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 235
+  width = 6
+  action = addtexture
+  actionid = 26127db3-5253-4199-9c20-62a223a4b8d41679341479920
+  y = 292
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 234
+  width = 7
+  action = addtexture
+  actionid = 66fdf342-127c-4f44-aecd-37f112c431e51679341460263
+  y = 224
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 148
+  width = 6
+  action = addtexture
+  actionid = c6216b26-47dc-462d-832f-898d096fb2231679341516405
+  y = 292
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 147
+  width = 7
+  action = addtexture
+  actionid = 5676da80-9bb9-4789-8d3f-eed03481d8751679341516405
+  y = 81
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 80
+  width = 7
+  action = addtexture
+  actionid = 2b48dd0e-0d93-4a8c-bacf-40a29660b3541679341358297
+  y = 285
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 80
+  width = 7
+  action = addtexture
+  actionid = 491bd2b6-e34b-482b-8adc-df9d0d3964821679341335815
+  y = 219
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 80
+  width = 7
+  action = addtexture
+  actionid = 9e631a03-b4bd-4bfb-b5ea-d20efe30535b1679249509623
+  y = 149
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 80
+  width = 7
+  action = addtexture
+  actionid = 95db29ae-7a59-4db2-b56c-2b91f85a155d1679249490924
+  y = 86
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 80
+  width = 7
+  action = addtexture
+  actionid = baaee229-b91c-49ea-ba26-dc86c9ac1c871679248199125
+  y = -1
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 147
+  width = 7
+  action = addtexture
+  actionid = b956840f-3d3f-46b7-b071-b470033de8921679341516405
+  y = 224
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 234
+  width = 7
+  action = addtexture
+  actionid = 08c6845c-825e-461d-a793-6ff5cc8fbe9c1679248167436
+  y = 149
+  height = 100
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 234
+  width = 7
+  action = addtexture
+  actionid = dcdf40ec-1047-4f37-a753-8465799936891679247961691
+  y = -9
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/Uh2bJFYveB%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/customization/menu/boutondiscord1.png
+  label = 
+  loopbackgroundanimations = true
+  x = -422
+  width = 50
+  action = addbutton
+  actionid = e5bd559a-198b-462b-ad27-be21032b92571679246761369
+  y = 26
+  backgroundnormal = config/fancymenu/customization/menu/boutondiscord.png
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 234
+  width = 7
+  action = addtexture
+  actionid = e8e739f8-2f48-4a34-b725-4c791751210c1679248167436
+  y = 81
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://livemap.minestrator.com/s/4fb1285b-239b-49fb-bf97-7ea227e08d7a%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/customization/menu/boutonwiki1.png
+  label = 
+  loopbackgroundanimations = true
+  x = -422
+  width = 50
+  action = addbutton
+  actionid = 5d5e5c77-acf8-4275-a8f0-c85bca32bc0c1679246795152
+  y = -43
+  backgroundnormal = config/fancymenu/customization/menu/boutonwiki.png
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/customization/menu/chaine.png
+  orientation = top-left
+  x = 148
+  width = 7
+  action = addtexture
+  actionid = 0c4fece5-5e6c-4716-ada8-0647ee64968d1679247798072
+  y = -16
+  height = 113
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/customization/menu/boutonboutique1.png
+  label = 
+  loopbackgroundanimations = true
+  x = -424
+  width = 50
+  action = addbutton
+  actionid = 209c5bc9-ec33-4e4c-95d3-ebe35152f95f1679246816756
+  y = 96
+  backgroundnormal = config/fancymenu/customization/menu/boutonboutique.png
+  height = 50
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver;94.231.37.216:25576%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/customization/menu/boutonserveur1.png
+  label = 
+  loopbackgroundanimations = true
+  x = -422
+  width = 50
+  action = addbutton
+  actionid = d548bb75-af39-4bbe-9912-2bca5bdd3a761679247268720
+  y = -113
+  backgroundnormal = config/fancymenu/customization/menu/boutonserveur.png
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/customization/menu/panneaumenu.png
+  orientation = top-left
+  x = 120
+  width = 150
+  action = addtexture
+  actionid = 7cbac420-273a-4878-8782-99d30fa2b1c71679247724451
+  y = 70
+  height = 50
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_singleplayer_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/customization/menu/boutondecouvrir1.png
+  label = 
+  loopbackgroundanimations = true
+  x = -422
+  width = 50
+  action = addbutton
+  actionid = 17f5f846-93f7-4c94-a941-3ad9ab3529db1679248327753
+  y = -183
+  backgroundnormal = config/fancymenu/customization/menu/boutondecouvrir.png
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = Découvrir
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 138
+  width = 115
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ae7f45da-43b2-4331-9a2a-bee439a67d491679248466012
+  y = 86
+  alignment = centered
+  height = 18
+}
+
+customization {
+  orientation = mid-centered
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 50
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/d46e684883a6c586f93f5d743c9bb75c9c8c46f6a369f7f5dc0b86d7f548c028
+  showname = false
+  crouching = false
+  follow_mouse = true
+  x = -12
+  width = 30
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = e42438da-4237-4fce-9382-956f39051c0a1679248952826
+  y = 134
+  playername = bigmamalge
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = true
+  height = 90
+}
+
+customization {
+  path = config/fancymenu/customization/menu/panneaumenu.png
+  orientation = top-left
+  x = 120
+  width = 150
+  action = addtexture
+  actionid = 1af01c71-3bdb-44af-97e5-9ac031f8a4e21679341080091
+  y = 140
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/customization/menu/panneaumenu.png
+  orientation = top-left
+  x = 120
+  width = 150
+  action = addtexture
+  actionid = 9cf8676d-0c8c-4f66-9719-8300935d8da81679341179139
+  y = 210
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/customization/menu/panneaumenu.png
+  orientation = top-left
+  x = 120
+  width = 150
+  action = addtexture
+  actionid = e75c1d29-ce6a-486a-a28a-b56c07354c761679341203465
+  y = 280
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/customization/menu/panneaumenu.png
+  orientation = top-left
+  x = 120
+  width = 150
+  action = addtexture
+  actionid = 6834e7bd-68ff-47ae-84e5-da0bf03c85f31679341215791
+  y = 350
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = Rejoindre
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 140
+  width = 111
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6136b637-96fa-4c73-95bf-1c3fd42033051679248725167
+  y = 154
+  alignment = centered
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = Discord
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 151
+  width = 87
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 96596f0d-0320-4763-9289-0ae664d0f7f71679248818457
+  y = 296
+  alignment = centered
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = LiveMap
+  text_border = 0
+  case_mode = lower
+  source_mode = direct
+  line_spacing = 1
+  x = 159
+  width = 79
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5be36434-f9ab-4928-bcef-1bcfa7c37cfa1679248761772
+  y = 226
+  alignment = centered
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = Boutique
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 149
+  width = 92
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = efc57e48-ec27-4dba-8378-422df09eebd11679248914893
+  y = 366
+  alignment = centered
+  height = 20
+}
+

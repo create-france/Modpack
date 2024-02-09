@@ -1,0 +1,47 @@
+{
+	"enabled": true,
+	// Keybinding to open the Macro editing screen
+	"openMacroScreenKeybind": "key.keyboard.keypad.enter",
+	"macros": [
+		{
+			// Macro keybinding
+			"keyName": "key.keyboard.keypad.1",
+			// Key modifier
+			"keyModName": "key.keyboard.unknown",
+			// Command to execute
+			"command": "/gamemode creative",
+			// Type of Macro. Delayed, Repeating, RunNTimes, SingleUse, DisplayOnly
+			"macroType": "SingleUse"
+		},
+		{
+			// Macro keybinding
+			"keyName": "key.keyboard.keypad.2",
+			// Key modifier
+			"keyModName": "key.keyboard.unknown",
+			// Command to execute
+			"command": "/gamemode survival",
+			// Type of Macro. Delayed, Repeating, RunNTimes, SingleUse, DisplayOnly
+			"macroType": "SingleUse"
+		},
+		{
+			// Macro keybinding
+			"keyName": "key.keyboard.keypad.3",
+			// Key modifier
+			"keyModName": "key.keyboard.unknown",
+			// Command to execute
+			"command": "/gamemode spectator",
+			// Type of Macro. Delayed, Repeating, RunNTimes, SingleUse, DisplayOnly
+			"macroType": "SingleUse"
+		},
+		{
+			// Macro keybinding
+			"keyName": "key.keyboard.keypad.4",
+			// Key modifier
+			"keyModName": "key.keyboard.unknown",
+			// Command to execute
+			"command": "/time set day",
+			// Type of Macro. Delayed, Repeating, RunNTimes, SingleUse, DisplayOnly
+			"macroType": "SingleUse"
+		}
+	]
+}

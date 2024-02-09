@@ -1,0 +1,10 @@
+[rules."createfrance:event"]
+mobGriefing = "false"
+doMobSpawning = "true"
+maxEntityCramming = "50"
+naturalRegeneration = "false"
+doWeatherCycle = "false"
+doDaylightCycle = "false"
+keepInventory = "true"
+[rules."minecraft:the_nether"]
+doMobLoot = "true"

@@ -1,0 +1,660 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutoriel"
+	group: ""
+	icon: "minecraft:end_crystal"
+	id: "3986E9EB1B19E4F6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "botania:natura_pylon"
+			id: "4B3465EC0ACAB4CB"
+			rewards: [{
+				count: 10
+				id: "60D61B78AC8303AB"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "080377031ABF27AF"
+				title: "démarrer le tutoriel"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7CF7B2339DEF17F6"]
+			id: "529869AE0840AF4F"
+			rewards: [{
+				count: 10
+				id: "3F64F77AFC9579E7"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D71F6D0B0994EBB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+				title: "a boat"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			description: [""]
+			hide_dependency_lines: true
+			id: "7CF7B2339DEF17F6"
+			rewards: [{
+				count: 10
+				id: "77A52349353538CB"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0F4B8C57EE448B79"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				tags: ["overworld_generate_logs"]
+				title: "Any #minecraft:oak_logs"
+				type: "item"
+			}]
+			title: "log"
+			x: 2.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["529869AE0840AF4F"]
+			icon: "botania:rune_water"
+			id: "241B9B9926F605FF"
+			rewards: [{
+				count: 10
+				id: "516D4BD6BFDEDA05"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:ocean"
+				icon: "botania:rune_water"
+				id: "5250D402E81980DE"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["241B9B9926F605FF"]
+			icon: "create:cuckoo_clock"
+			id: "6C7977FFCB5E24B5"
+			rewards: [{
+				count: 10
+				id: "399D18E5BBD74247"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1493BB810C8A788D"
+				title: "set home"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6C7977FFCB5E24B5"]
+			id: "16DE6033ABE97E7E"
+			rewards: [{
+				count: 10
+				id: "26FDC36FB1301BC8"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38166C928B1A6589"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "craft un lit"
+			x: 6.0d
+			y: -20.5d
+		}
+		{
+			id: "469CE8D5093CA2D0"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:skeleton_skull"
+				id: "0083C686EDE88596"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 100
+			}]
+			title: "La mort n'est pas une fatalité"
+			x: 4.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["7C8B58BC1F2669DA"]
+			description: [
+				"Pour entrer dans le nether, vous devez être full fer"
+				"Pensez à bien validé la quête Nether"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:nether_star"
+			id: "153B736078BE360C"
+			rewards: [{
+				auto: "enabled"
+				command: "/skills set @p skills:nether_access true"
+				icon: "minecraft:nether_star"
+				id: "6E3CE3B26FD7ED4E"
+				player_command: false
+				title: "Nether"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "7109DFCBFF30B316"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DD05FE3955574B2"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7C025133C966C4"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17921D08378C730E"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["7C8B58BC1F2669DA"]
+			description: ["Pour entrer dans l'end vous devez être full netherite"]
+			hide_dependency_lines: true
+			icon: "minecraft:end_crystal"
+			id: "547DB63F19C44BED"
+			rewards: [{
+				auto: "enabled"
+				command: "/skills set @p skills:end_access true"
+				icon: "minecraft:end_crystal"
+				id: "3CEA85B9107BAF07"
+				player_command: false
+				title: "End"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "620C10214FE64DB1"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FD9BCBD20995716"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AE3BF2A4F2F627"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E0663DBDBCB15AF"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -23.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "create:wrench"
+			id: "57E0DEEC9C7DD3C3"
+			rewards: [{
+				id: "5621BAE276028A87"
+				item: "create:wrench"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "create:root"
+				criterion: ""
+				id: "0E87CF8B2B2C9CD2"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -22.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "3E8AB55479FB79FC"
+			rewards: [{
+				id: "247E2A4DE50FF91E"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "54A503EB17548015"
+				title: "Elytra"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["3E8AB55479FB79FC"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "7A71529AF8CADF7B"
+			rewards: [{
+				count: 64
+				id: "721BC64B470B3E0B"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:cooked_beef"
+				id: "2146BCB273F8F79D"
+				type: "dimension"
+			}]
+			title: "Bouffe"
+			x: 3.0d
+			y: -21.5d
+		}
+		{
+			id: "3D8C7F9367250C2A"
+			rewards: [{
+				id: "69C26ED4757CEC6F"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "ftbquests:book"
+				id: "4B1B7DB6D5C6A244"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["16DE6033ABE97E7E"]
+			hide_dependency_lines: true
+			id: "08D4896C997E591C"
+			rewards: [{
+				count: 10
+				id: "01EEA24AF983C3C1"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CD13DACA73C6769"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fabricaeexnihilo:barrels"
+					}
+				}
+				title: "Any #fabricaeexnihilo:barrels"
+				type: "item"
+			}]
+			title: "barrels"
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7797A21F2FA91EF3"]
+			icon: "fabricaeexnihilo:string_mesh"
+			id: "5C612D24C6E5C0CB"
+			rewards: [{
+				count: 10
+				id: "466D5644C98BF256"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18CC3F5D23A98F9B"
+				item: "fabricaeexnihilo:string_mesh"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["08D4896C997E591C"]
+			id: "410A72C1608C6EFA"
+			rewards: [{
+				count: 10
+				id: "05A7DAA4CB20A4BA"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20BFB64808C1760B"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2093D1BE84620F76"]
+			id: "0C8C66AFDF7838E1"
+			rewards: [{
+				count: 10
+				id: "3F97A49659950BEE"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D7B49F743056E3E"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"0C8C66AFDF7838E1"
+				"410A72C1608C6EFA"
+			]
+			id: "3CCD36661977CDF4"
+			rewards: [{
+				count: 10
+				id: "667FCE4A9EBC011D"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1629771CFACE67A4"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5C612D24C6E5C0CB"]
+			id: "505D31F07C9902FC"
+			rewards: [{
+				count: 10
+				id: "69FD32671C418A63"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "180854FE2139D42F"
+				item: "fabricaeexnihilo:andesite_pebble"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["16DE6033ABE97E7E"]
+			hide_dependency_lines: true
+			id: "7797A21F2FA91EF3"
+			rewards: [{
+				count: 10
+				id: "234DAC35B314C58A"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "558C1E520D64E027"
+				item: "fabricaeexnihilo:oak_sieve"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["16DE6033ABE97E7E"]
+			hide_dependency_lines: true
+			icon: "fabricaeexnihilo:porcelain_crucible"
+			id: "2093D1BE84620F76"
+			rewards: [{
+				count: 10
+				id: "48CD6F4CA1A1ED44"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "fabricaeexnihilo:porcelain_crucible"
+				id: "7B7EB61BB9C31BF0"
+				item: "fabricaeexnihilo:porcelain_crucible"
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3CCD36661977CDF4"]
+			id: "420EE46DEC9B3691"
+			rewards: [{
+				count: 10
+				id: "01820F8524CACDE3"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01D7D7E75164DB30"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["505D31F07C9902FC"]
+			id: "342EEC6739995273"
+			rewards: [{
+				count: 10
+				id: "228D86058C340B6D"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "105DF485A27E6391"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7458BB30DFDCAA0E"
+				"342EEC6739995273"
+			]
+			id: "4C276E7C8BA2B522"
+			rewards: [{
+				count: 10
+				id: "44689B538D6BBDF3"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DC5990B349E9970"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["420EE46DEC9B3691"]
+			id: "74E2694EFAA2DE9C"
+			rewards: [{
+				count: 10
+				id: "655E4DE7E0AA27F5"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13C304F4A8E005BD"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["74E2694EFAA2DE9C"]
+			id: "7458BB30DFDCAA0E"
+			rewards: [{
+				count: 10
+				id: "7572C0608D94A413"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7223FC2503FEA601"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C8C66AFDF7838E1"]
+			id: "4B17E7227DEBDF72"
+			rewards: [{
+				count: 10
+				id: "1D6267107C7BAD7E"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "356AF2ECCAC97F70"
+				item: "fabricaeexnihilo:porcelain_crucible"
+				match_nbt: true
+				optional_task: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			id: "31F98241028C08C1"
+			rewards: [{
+				id: "2949BEF3150782C9"
+				item: "minecraft:oak_boat"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:oak_boat"
+				id: "4E120F32820C73FD"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: -20.0d
+		}
+	]
+	title: "Tutoriel"
+}

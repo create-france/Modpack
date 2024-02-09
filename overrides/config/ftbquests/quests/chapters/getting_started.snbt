@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "2314A9BE5A88BE8E"
+	id: "7C5ED82FC562EA1B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "06E486DFA741C580"
+		tasks: [{
+			id: "1B341AE81CE57106"
+			item: "minecraft:command_block_minecart"
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "Getting Started"
+}

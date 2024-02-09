@@ -1,0 +1,1720 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "buildeur"
+	group: "6A1007D165513828"
+	icon: "minecraft:respawn_anchor"
+	id: "7BD7D10A81BC80C9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "443F4DD67B111B80"
+			size: 3.0d
+			tasks: [{
+				icon: "minecraft:respawn_anchor"
+				id: "0F58A714E7B60B4F"
+				title: "Buildeur"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "3C0F7DEB2D30563A"
+			rewards: [{
+				count: 50
+				id: "2A02110F927A5046"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "0F5BC75A6A13A2BC"
+					item: "minecraft:white_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3C619F000EA7760A"
+					item: "minecraft:orange_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "10A6DB76CFB75C15"
+					item: "minecraft:magenta_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2B1BE9E2A62F2B76"
+					item: "minecraft:yellow_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "60E8447CC0CCEDA6"
+					item: "minecraft:pink_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0FC0B0EFF6692FFF"
+					item: "minecraft:gray_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0C4D14A53E29451E"
+					item: "minecraft:cyan_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "17EC3321012A0DED"
+					item: "minecraft:purple_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "42EA1120B0268D54"
+					item: "minecraft:blue_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "764D14C9280EAEAE"
+					item: "minecraft:brown_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "568CCD1702597FCA"
+					item: "minecraft:green_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2E5E2D4B8BE29E33"
+					item: "minecraft:red_concrete"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "258BE6D117E438BA"
+					item: "minecraft:black_concrete"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3204899CF0994651"]
+			id: "72B682FCF3724696"
+			rewards: [{
+				count: 10
+				id: "67347E5F10F85B55"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "02463531FB48E6EF"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "29FA59445244061B"
+					item: "minecraft:spruce_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "01F2AA7935874F79"
+					item: "minecraft:birch_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "4F8743330F0E7BC0"
+					item: "minecraft:jungle_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "1474BCE71371E297"
+					item: "minecraft:acacia_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2AAAF3AF7FECC032"
+					item: "minecraft:dark_oak_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "748F85CA627D290A"
+					item: "minecraft:crimson_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2020FAC1D5749AF9"
+					item: "minecraft:warped_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6759ACA41E09C14E"
+					item: "ars_nouveau:archwood_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0A99486D94AA0623"
+					item: "malum:runewood_planks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2E340E704AD5DE0D"
+					item: "malum:soulwood_planks"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "561EECDD319A0F21"
+			rewards: [{
+				count: 50
+				id: "0031057D22938827"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "6742CD5904BDE939"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0006C38B871B86C8"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "64C679A5956E7299"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3A26195302C69577"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "480EB9E83868C087"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "2F9C41CBFCCF3A76"
+			rewards: [{
+				count: 50
+				id: "7612517EECEC8166"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "21FAB33777B4FA10"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "255CBDD039821370"
+					item: "minecraft:red_sand"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5B3C74C563ECCB71"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "3204899CF0994651"
+			rewards: [{
+				count: 10
+				id: "6E0005372393DE27"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "70FC5E3436A0C5DC"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "47832382FE42A8D0"
+					item: "minecraft:spruce_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "75A75A7F16517BA4"
+					item: "minecraft:birch_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2F22FDE506DE541A"
+					item: "minecraft:jungle_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2745B91F670540E0"
+					item: "minecraft:acacia_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "602D2F8E1923F8E8"
+					item: "minecraft:dark_oak_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "08B2A256036C7A93"
+					item: "malum:runewood_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "20AF8D08BA9EB00F"
+					item: "malum:soulwood_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "425296A2DA6B5699"
+					item: "minecraft:crimson_stem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7C04531A7DAF2BE4"
+					item: "minecraft:warped_stem"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "2A9B3C2DB28F2A23"
+			rewards: [{
+				count: 50
+				id: "24C4866117799904"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "336BAB278CAF1622"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "4C1033D6DA96DA21"
+					item: "minecraft:blue_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "4419CE0B01F142F6"
+					item: "minecraft:red_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "384450C16E65375B"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "14A45CBCAC77C2EB"
+					item: "minecraft:yellow_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "09467619F4BED65C"
+					item: "minecraft:cyan_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "39D75943F127A649"
+					item: "minecraft:gray_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "06C05B44E604AC37"
+					item: "minecraft:green_wool"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "7631FFC0F7BC40B4"
+			rewards: [{
+				count: 50
+				id: "27A1DF689FD7CC2D"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "132C8A53E21C4043"
+					item: "minecraft:terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "412551A7712450B6"
+					item: "minecraft:white_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "014F0A0A8707ED0E"
+					item: "minecraft:orange_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7FDBBEE6BC921BD2"
+					item: "minecraft:magenta_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "02D598E814B2A2F2"
+					item: "minecraft:light_blue_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7987351569AEBE8F"
+					item: "minecraft:yellow_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7E4048DF6BFF6F1C"
+					item: "minecraft:lime_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "324A1EF68E0E7DFC"
+					item: "minecraft:pink_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "075AA38D6F578999"
+					item: "minecraft:gray_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5BC8101A15E94829"
+					item: "minecraft:light_gray_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "63022B5A94CEEF82"
+					item: "minecraft:cyan_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5DBE9E805EADA5CA"
+					item: "minecraft:purple_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3209547591BF2F09"
+					item: "minecraft:blue_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "34BD9E1369A99868"
+					item: "minecraft:brown_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "79FB11322F7DF545"
+					item: "minecraft:green_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3BD47D3C08989A1A"
+					item: "minecraft:red_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "704A95C83F42CCD3"
+					item: "minecraft:black_terracotta"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "799515E803CA03F7"
+			rewards: [{
+				count: 50
+				id: "54FCB252E4D85BBE"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "618C66C6F8669A38"
+					item: "minecraft:blue_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "099D193C4074CD94"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "76D8E5083DA1ED8B"
+					item: "minecraft:tinted_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "24F731D12883077C"
+					item: "minecraft:white_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5B2E292438FD0782"
+					item: "minecraft:orange_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "628AB2C27EFB2415"
+					item: "minecraft:purple_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "773743BFC5225F33"
+					item: "minecraft:yellow_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2A6426215C2ECE4E"
+					item: "minecraft:pink_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7F99C72F08D06299"
+					item: "minecraft:gray_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0F535C30A8A4415D"
+					item: "minecraft:cyan_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "43EE49BA82910660"
+					item: "minecraft:brown_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "10E4773B12C66432"
+					item: "minecraft:green_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "486D4EB4F8BB071E"
+					item: "minecraft:red_stained_glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2FDCB269B12FDA25"
+					item: "minecraft:black_stained_glass"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "4A96FF6CD3697BA1"
+			rewards: [{
+				count: 50
+				id: "58826BBA0F18C3CA"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "6FC84623835526D3"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "70BC27D403DDB680"
+					item: "minecraft:spruce_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5EC6D8422173A383"
+					item: "minecraft:birch_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3AF5AA28C6B6790C"
+					item: "minecraft:jungle_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7B0C42D52EEAA959"
+					item: "minecraft:acacia_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7C66B60777A6AECB"
+					item: "minecraft:dark_oak_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0BAF96D7942256A4"
+					item: "minecraft:azalea_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "09C4919B09D35D1A"
+					item: "minecraft:flowering_azalea_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2422A74AE558671B"
+					item: "ars_nouveau:blue_archwood_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "4B80573C76816735"
+					item: "ars_nouveau:purple_archwood_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2374EDF55614547B"
+					item: "ars_nouveau:green_archwood_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "691E950BA73C04CC"
+					item: "ars_nouveau:red_archwood_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "468171F1A54412A1"
+					item: "malum:runewood_leaves"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "27DD9A924D9E66C7"
+					item: "malum:soulwood_leaves"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "74A153FFBB7A46D8"
+			rewards: [{
+				count: 50
+				id: "33362EC696D063DB"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "1B37EB3F7390D030"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0E61A14EB0E69FBB"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "54AD5B61F987BB53"
+					item: "minecraft:blue_orchid"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5D27420349233A64"
+					item: "minecraft:allium"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6617EED51B85F8C6"
+					item: "minecraft:azure_bluet"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "503328EFD7185CBA"
+					item: "minecraft:red_tulip"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "1262316CD1C471FC"
+					item: "minecraft:orange_tulip"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "724EB4414DE0B5F4"
+					item: "minecraft:white_tulip"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2CF16BFE1E9DF832"
+					item: "minecraft:pink_tulip"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5A62D5513E3A25F6"
+					item: "minecraft:oxeye_daisy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5523D40C92A2CA98"
+					item: "minecraft:cornflower"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "283CF40BAF60A65D"
+					item: "minecraft:lily_of_the_valley"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3D27B34E28B274B6"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2D2E2300A5603451"
+					item: "minecraft:spore_blossom"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "0C4A50B80BC4DB93"
+			rewards: [{
+				count: 50
+				id: "4AFD957D1C56C2D2"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "14576D9EDE2C05A6"
+					item: "minecraft:yellow_banner"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "15032149107DDC04"
+					item: "minecraft:white_banner"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "19D2966AF7258802"
+					item: "minecraft:blue_banner"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "43D017C0398CCF05"
+					item: "minecraft:red_banner"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6BDAAF31C902E8BB"
+					item: "minecraft:black_banner"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7FC67608A8BE497E"
+					item: "minecraft:green_banner"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "32C30F53B746D6FB"
+			rewards: [{
+				count: 50
+				id: "37AD3955FED01251"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "180F467C123AA48C"
+					item: "minecraft:soul_lantern"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0F591C5363A81FF8"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3678BCB7086BAB57"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "64996998DF6C0C94"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6E895F01E0454D00"
+					item: "minecraft:shroomlight"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "096B8CAF22128B30"
+			rewards: [{
+				count: 50
+				id: "128E9F59D2D38715"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "22EE152AF59681A5"
+					item: "minecraft:cyan_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "67818F4C1923AF81"
+					item: "minecraft:candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6A1AF6550ED94D93"
+					item: "minecraft:white_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2DC640F638A125EF"
+					item: "minecraft:orange_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "06D2594B8ABE0A6B"
+					item: "minecraft:magenta_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7DD311EFEE71FBFF"
+					item: "minecraft:yellow_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "4C3DD47220BEE9F9"
+					item: "minecraft:pink_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "583ABC6AC663075F"
+					item: "minecraft:gray_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "778E8780980D1EA9"
+					item: "minecraft:purple_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3321DF77BE10F6D3"
+					item: "minecraft:brown_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "78AE82B6B30B75AF"
+					item: "minecraft:blue_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "74296CCE42BF0423"
+					item: "minecraft:green_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3EDD59517531633B"
+					item: "minecraft:red_candle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "51DEAACC22870F99"
+					item: "minecraft:black_candle"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "406393697BD1A115"
+			rewards: [{
+				count: 10
+				id: "19F31011AA13CAC1"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "7F8EFB4025AAC648"
+				item: "create:rose_quartz_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "275C3AC25A93B84F"
+			rewards: [{
+				count: 10
+				id: "23B2C4CAA5B290BB"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "28B06316B5807ACC"
+				item: "create:copper_shingles"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "03667E08261C9864"
+			rewards: [{
+				count: 10
+				id: "6C3B15D9210709E4"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "693C88AFFDBB72EE"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "0BD2EDEF598FDD2E"
+			rewards: [{
+				count: 10
+				id: "2AEA99CECDB286B6"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "134D666A8763D122"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "332D579B997AFDC9"
+			rewards: [{
+				count: 10
+				id: "03DA65A5270A76DE"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "48D1EFF55DE8DBCD"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "57B4D69C0B4BFA3C"
+			rewards: [{
+				count: 10
+				id: "4B44D09876F4C7B3"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "0FEB0D94543425C5"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "573343AAE6A97797"
+			rewards: [{
+				count: 10
+				id: "65EC64568835F8DB"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "20104E7BE3A0D30E"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "3B3C40E5CCC7CF6F"
+			rewards: [{
+				count: 10
+				id: "550079386BE3AD24"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "5A9D6A1AE5C206B6"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "10E8F3F94F1363A1"
+			rewards: [{
+				count: 10
+				id: "2E3E97BE154BE790"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "1381D34A7203AC5E"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "4E5B15388A43C093"
+			rewards: [{
+				count: 10
+				id: "1300024078C9EAA0"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "5CF8844A85E64842"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5C49193BBF79F262"
+					item: "minecraft:scaffolding"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "389EBC52834FF7FD"
+					item: "minecraft:chain"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "71FA92D440EFE538"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "427D91040C0552E1"
+			rewards: [{
+				count: 10
+				id: "608F562F89D66D9D"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "5CB0E1795CCE5106"
+					item: "minecraft:cobblestone_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "1802F7AEC602242B"
+					item: "minecraft:brick_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2D4AABD55EDF4472"
+					item: "minecraft:prismarine_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "64282E98CC50F00E"
+					item: "minecraft:red_sandstone_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "265B99A3B957EAB8"
+					item: "minecraft:granite_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "51EB1BE94C49B75F"
+					item: "minecraft:stone_brick_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5321015EF8575057"
+					item: "minecraft:nether_brick_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "32F3D742ED8202C3"
+					item: "minecraft:andesite_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "103136D518B90417"
+					item: "minecraft:red_nether_brick_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "286B8CB45FA32356"
+					item: "minecraft:sandstone_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "775BC4CC08B27E4A"
+					item: "minecraft:end_stone_brick_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "37624400336AE57C"
+					item: "minecraft:diorite_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "1387B4EDCD08E555"
+					item: "minecraft:blackstone_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6CDC58E25D28BD53"
+					item: "minecraft:polished_blackstone_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "785D45F813BF2F1A"
+					item: "minecraft:cobbled_deepslate_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "3C7EC658AB296F1B"
+					item: "minecraft:deepslate_brick_wall"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["443F4DD67B111B80"]
+			id: "20221C6C7CDB86FB"
+			rewards: [{
+				count: 10
+				id: "212C6BF9FB1B18FD"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "67ADCC318D51448B"
+					item: "minecraft:oak_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "689026610901AECC"
+					item: "minecraft:spruce_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5F5759D3D6D63016"
+					item: "minecraft:birch_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0847E20C1D041CB9"
+					item: "minecraft:jungle_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5392D560251D3B21"
+					item: "minecraft:acacia_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2D420D83A01A65B7"
+					item: "minecraft:dark_oak_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0229095E4F7CCC01"
+					item: "minecraft:crimson_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7E02675C9EF6D742"
+					item: "minecraft:warped_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "69874CCA3B36DED7"
+					item: "minecraft:nether_brick_fence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "55B2C0A0B0AA221D"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7F4EA694DC921F95"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7631FFC0F7BC40B4"]
+			id: "186DC37E72D07767"
+			rewards: [{
+				count: 50
+				id: "5205DB0E891E9BC3"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "1D23519739B24E34"
+					item: "minecraft:white_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "23436B527E72D6CD"
+					item: "minecraft:orange_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6F8984488AB278DA"
+					item: "minecraft:magenta_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6F6E5A86AD3210BD"
+					item: "minecraft:light_blue_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6FF7027644EDFE59"
+					item: "minecraft:yellow_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "0FAB6A587C363E53"
+					item: "minecraft:lime_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "266D82829069D545"
+					item: "minecraft:pink_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "57A87B5FCC319CA3"
+					item: "minecraft:gray_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "793636FC429771AE"
+					item: "minecraft:light_gray_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "65C360840B9A1323"
+					item: "minecraft:cyan_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "37FD0E1FF4C2F928"
+					item: "minecraft:purple_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "078F27B711B7EF15"
+					item: "minecraft:blue_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "549BB38F1AF3703F"
+					item: "minecraft:brown_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "5024BBDAA7D99FC4"
+					item: "minecraft:green_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "7488A887AF439393"
+					item: "minecraft:red_glazed_terracotta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "2963AF224EF5855B"
+					item: "minecraft:black_glazed_terracotta"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["406393697BD1A115"]
+			id: "29D321D8749BBAC5"
+			rewards: [{
+				count: 10
+				id: "6ADA1BEAD8A14BFF"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "0B72BD7BA463E395"
+				item: "create:rose_quartz_lamp"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "Buildeur"
+}

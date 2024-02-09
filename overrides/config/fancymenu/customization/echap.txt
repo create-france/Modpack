@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://livemap.minestrator.com/s/4fb1285b-239b-49fb-bf97-7ea227e08d7a%btnaction_splitter_fm%
+  x = -50
+  width = 100
+  action = addbutton
+  actionid = fcc1e5c4-0518-4000-b4bc-04e607e0a4f61684090714272
+  y = -70
+  label = LiveMap
+  height = 20
+}
+

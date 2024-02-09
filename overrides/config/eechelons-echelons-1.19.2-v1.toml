@@ -1,0 +1,13 @@
+# list of echelons
+[[echelons]]
+	dimensions = ["minecraft:overworld"]
+	hpFactor = 1.2
+	damageFactor = 0.8
+	maxDamage = 10.0
+	armorFactor = 0.1
+	armorToughnessFactor = 1.0
+	knockbackIncrement = 0.2
+	knockbackResistIncrement = 0.0
+	speedFactor = 0.05
+	maxSpeed = 0.35
+	xpFactor = 0.2

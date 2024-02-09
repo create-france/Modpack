@@ -1,0 +1,661 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guild_paysanne"
+	group: "6A1007D165513828"
+	icon: "minecraft:wheat"
+	id: "55F9C8978AFBB475"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "013B789AE55C718E"
+			rewards: [{
+				count: 50
+				id: "759D08EEB4E740CE"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "6C6B0E1E3C4FC6F2"
+				title: "Paysan"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["013B789AE55C718E"]
+			id: "1F6F8FFC4CB78639"
+			rewards: [{
+				count: 50
+				id: "79D34CA694BF5B78"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "316A1F96D3ED9F52"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["013B789AE55C718E"]
+			icon: "farmersdelight:rice_panicle"
+			id: "310AC61B1D507856"
+			rewards: [{
+				count: 50
+				id: "272DD5A9580B6E3C"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "15D76F71FE2F9A13"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["013B789AE55C718E"]
+			icon: "minecraft:white_wool"
+			id: "7D43AD1BA3DDE827"
+			rewards: [{
+				count: 50
+				id: "5942DF89136E1869"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "108FF186729FE976"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F6F8FFC4CB78639"]
+			id: "06D8DCD6C58DD8DD"
+			rewards: [{
+				count: 50
+				id: "7436065D4EBB3887"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "4A0D483A5514663F"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F6F8FFC4CB78639"]
+			id: "5491390F075F6E88"
+			rewards: [{
+				count: 50
+				id: "7D51E6534314EAD3"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "71B1135F7F186F88"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F6F8FFC4CB78639"]
+			id: "21569E957011E7D3"
+			rewards: [{
+				count: 50
+				id: "4DFC5E821997FA3F"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+				id: "5E8728EDE9EF5791"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5491390F075F6E88"]
+			id: "2A53B0C2DF4939AF"
+			rewards: [{
+				count: 50
+				id: "54465A1DB794E639"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "115EEB3D1D84B4A4"
+				item: "minecraft:honeycomb_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5491390F075F6E88"]
+			id: "6D8AD935666731B1"
+			rewards: [{
+				count: 50
+				id: "05B3F9B420B0BC2B"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "221AFBF4C60DD913"
+				item: "minecraft:honey_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6D8AD935666731B1"
+				"2A53B0C2DF4939AF"
+			]
+			id: "6A4CB81A6A1559BB"
+			rewards: [{
+				count: 50
+				id: "3DF8B7EFF62838D5"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "4369FFD1A864738D"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "7D15E4A1F13567B7"
+			rewards: [{
+				count: 50
+				id: "5EADC736D51252C1"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "7A562A7E9E8CF481"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "51008FF9B4DA323D"
+			rewards: [{
+				count: 50
+				id: "7FEB4A0E67235E42"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "0EB58CA7A4190328"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "00A9263F42D7FF63"
+			rewards: [{
+				count: 50
+				id: "68C4C8B0A6DB90E0"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "6E5156CB803AD943"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "0CA0EE083BD0E4A7"
+			rewards: [{
+				count: 50
+				id: "13D17183C96C6F68"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "2A88DF1951585BC8"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "38B3CED83542B768"
+			rewards: [{
+				count: 50
+				id: "12F48F268E63C0FC"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "197899B5EEE95D6B"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "44F08D47FF1ED217"
+			rewards: [{
+				count: 50
+				id: "48A8BE2F856AF7C6"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "3BD05D8B116570B2"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D15E4A1F13567B7"]
+			id: "40B12AE2EAAF6B2F"
+			rewards: [{
+				count: 50
+				id: "216AFDA8F1B7DC9C"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "4E773B066789B276"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51008FF9B4DA323D"]
+			id: "7877B31FE59B736D"
+			rewards: [{
+				count: 50
+				id: "00A2478384D0B1C8"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "73DD64253A21B640"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			icon: "minecraft:beetroot"
+			id: "6F18DAFA3132919E"
+			rewards: [{
+				count: 50
+				id: "6F5E3A7F6AE59DEA"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "3AD8DF230AA3797E"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00A9263F42D7FF63"]
+			id: "7C59925BF048D221"
+			rewards: [{
+				count: 50
+				id: "6E788668D9DFF25F"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "5EDFC02006D4F3DD"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F18DAFA3132919E"]
+			id: "58171070BDFD8121"
+			rewards: [{
+				count: 50
+				id: "6521C2283F5BDB81"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "110B05B2E3D040C7"
+				item: "farmersdelight:beetroot_crate"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CA0EE083BD0E4A7"]
+			id: "6A6DF0080A41D5DC"
+			rewards: [{
+				count: 50
+				id: "10A5F753E949E464"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "0A6EB9D12E2E80B5"
+				item: "farmersdelight:tomato_crate"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38B3CED83542B768"]
+			id: "5829BD79260414A7"
+			rewards: [{
+				count: 50
+				id: "074857D18153FE23"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "04213F0951347CDE"
+				item: "farmersdelight:rice_bale"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44F08D47FF1ED217"]
+			id: "68938DD09E17C1C5"
+			rewards: [{
+				count: 50
+				id: "16FF922E974DEDD6"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "58C91E4F624F38EE"
+				item: "farmersdelight:onion_crate"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "5E65FF61B93D9F26"
+			rewards: [{
+				count: 50
+				id: "393B35CBB7602106"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "3CE14F4A2F83FF19"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310AC61B1D507856"]
+			id: "438CA40AFB4F6BA8"
+			rewards: [{
+				count: 50
+				id: "68738CD9C9A055B3"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "48357A1CE210AFC3"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D43AD1BA3DDE827"]
+			id: "2C36FBBAFBC614C9"
+			rewards: [{
+				count: 50
+				id: "60F5723FC3ED98DC"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "0AB0486EC0297161"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D43AD1BA3DDE827"]
+			id: "5F979F623D042854"
+			rewards: [{
+				count: 50
+				id: "504EC85DB54378C8"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "770CC2D67F746F8E"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D43AD1BA3DDE827"]
+			id: "08DD9EFF9A42B029"
+			rewards: [{
+				count: 50
+				id: "60C9006803C85DD8"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "137830ACCC09D39B"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D43AD1BA3DDE827"]
+			id: "60923AED6AEC7403"
+			rewards: [{
+				count: 50
+				id: "641D8C1C16F724AC"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5000L
+				id: "4F15DFA22F2756F7"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["013B789AE55C718E"]
+			id: "0FD811E7F869F3CD"
+			rewards: [{
+				count: 50
+				id: "00EED426E07C5B7C"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34EFCB605F64B834"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FD811E7F869F3CD"]
+			id: "190DF80355600AF9"
+			rewards: [{
+				count: 50
+				id: "33B5972E842A3894"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "6AD1FE4732C39127"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FD811E7F869F3CD"]
+			id: "795871B773383BAF"
+			rewards: [{
+				count: 50
+				id: "1918E3BEAB42C1BC"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "2D9BFD8D6188048C"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FD811E7F869F3CD"]
+			id: "778454872AF15D18"
+			rewards: [{
+				count: 50
+				id: "60969AB918692A27"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "39609F20D463B6C9"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "Paysan"
+}

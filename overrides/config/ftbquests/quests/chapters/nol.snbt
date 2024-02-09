@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nol"
+	group: ""
+	id: "48B6971A88766291"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["{@pagebreak}"]
+		id: "10E48F3881844940"
+		rewards: [{
+			command: "/armourers giveSkin @p /downloads/09898 - Santa's Hat.armour"
+			icon: "supplementaries:present_lime"
+			id: "0FC4CA87889AF537"
+			player_command: false
+			title: "Cosmétique Noel"
+			type: "command"
+		}]
+		size: 3.0d
+		subtitle: "Participer aux dévelopement de la bordure et gagner un cosmétique exclusif"
+		tasks: [{
+			consume_items: true
+			count: 16L
+			id: "39A4FA65EC99C9E2"
+			item: "kubejs:boule_de_noel"
+			type: "item"
+		}]
+		title: "évent Noël"
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "NOËL"
+}

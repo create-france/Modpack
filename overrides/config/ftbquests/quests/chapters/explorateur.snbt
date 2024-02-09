@@ -1,0 +1,432 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explorateur"
+	group: "6A1007D165513828"
+	icon: "minecraft:diamond_horse_armor"
+	id: "794B2BADC787146B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "302A0DD96C9A3802"
+			rewards: [{
+				count: 50
+				id: "74121AD4995B1E16"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				icon: "supplementaries:globe"
+				id: "7D0D40D1125ABE4C"
+				title: "Explorateur"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			id: "741015A3E2E32AB3"
+			rewards: [
+				{
+					count: 5
+					id: "59CF05AD89488FC2"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "4159C1F4A3D4D45F"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:grass_block"
+				id: "79302933B865640D"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			id: "5A8CB9AA8020A122"
+			rewards: [
+				{
+					count: 5
+					id: "10A3565A54ADA704"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "53B5A3A86768DACB"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: "minecraft:sand"
+				id: "4A5046FF9DDD5FD1"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			id: "0971ADD66DD98E37"
+			rewards: [
+				{
+					count: 5
+					id: "28DCCA3E89EA2BC7"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "281B68C234097DFC"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:ocean"
+				icon: "minecraft:water_bucket"
+				id: "6AD978D91242BDA9"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			icon: "minecraft:dead_bush"
+			id: "41C6131E9B6BE1ED"
+			rewards: [
+				{
+					count: 5
+					id: "394FFC120D1CAA4B"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "400167B6FBE63E2C"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:badlands"
+				icon: "minecraft:terracotta"
+				id: "52686F332668D6E0"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			id: "59871034B7EBF2F7"
+			rewards: [
+				{
+					count: 5
+					id: "1C0760B2E2255E48"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "77E0B8AB46ED19C7"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:frozen_peaks"
+				icon: "minecraft:packed_ice"
+				id: "1AA41BB41EE13D23"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			icon: "minecraft:jungle_sapling"
+			id: "7863A81F43D808DF"
+			rewards: [
+				{
+					count: 5
+					id: "1A846758E72CFE37"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "5D2443315D3A4C13"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:jungle"
+				icon: "minecraft:stripped_acacia_wood"
+				id: "03F9454B0CEC0DB2"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			icon: "minecraft:spruce_sapling"
+			id: "51A5E7266B36A85D"
+			rewards: [
+				{
+					count: 5
+					id: "330649141CA59F8D"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "06D4208D2CCB5BDE"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:taiga"
+				icon: "minecraft:spruce_wood"
+				id: "4C7978009C725E3B"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			icon: "farmersdelight:brown_mushroom_colony"
+			id: "432DE6E478C27359"
+			rewards: [
+				{
+					count: 5
+					id: "4FCEBD9ED084A5BF"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "067D815155C53B03"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				icon: "minecraft:brown_mushroom_block"
+				id: "72DA89DAA2866778"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			id: "457CA80F2A314EE2"
+			rewards: [
+				{
+					count: 5
+					id: "6E1DCA67C679335D"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "1A356C90215DF259"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:stony_peaks"
+				icon: "minecraft:stone"
+				id: "579B7844ED0DE33A"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			icon: "minecraft:acacia_sapling"
+			id: "616FDEC37AADF34F"
+			rewards: [
+				{
+					count: 5
+					id: "1BDAE69ADE2EC4EE"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "51B532854E1A7013"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:savanna"
+				icon: "minecraft:stripped_acacia_wood"
+				id: "7766147E90489092"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			icon: "minecraft:oak_boat"
+			id: "298095D5CEF2F99C"
+			rewards: [
+				{
+					count: 5
+					id: "0606A4CAC9BA1126"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "1FEB549F977EDEE5"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:oak_boat"
+				id: "3E9AE4CDA74E12DE"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 5000000
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["298095D5CEF2F99C"]
+			icon: "minecraft:spruce_boat"
+			id: "0A1E0F24116F9E76"
+			rewards: [
+				{
+					count: 8
+					id: "303FF3D707F1DFAF"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "503AB0EC015F53E1"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:spruce_boat"
+				id: "579BF7824C5B607F"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 10000000
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			hide_dependency_lines: true
+			id: "1079A36B8BD92262"
+			rewards: [{
+				count: 50
+				id: "270635919C4F9D1E"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:totem_of_undying"
+				id: "21BC27D79857AD2A"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			title: "Manoir"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A1E0F24116F9E76"]
+			id: "2836D9CC9FA1D633"
+			rewards: [
+				{
+					count: 11
+					id: "50EC696558B51777"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "5628572D79A96A5D"
+					item: "coinsje:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:birch_boat"
+				id: "1A4939C78A219F9F"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 100000000
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["302A0DD96C9A3802"]
+			hide_dependency_lines: true
+			id: "74125E4850881999"
+			rewards: [{
+				count: 50
+				id: "395EFEDC79BCA6EE"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "19AD52EE724F3400"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			title: "forteresse"
+			x: 0.5d
+			y: -4.0d
+		}
+	]
+	title: "Explorateur"
+}

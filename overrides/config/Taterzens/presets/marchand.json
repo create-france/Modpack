@@ -1,0 +1,266 @@
+{
+  "PortalCooldown": 0,
+  "PersistenceRequired": 1,
+  "FallFlying": 0,
+  "HurtTime": 0,
+  "Health": 20.0,
+  "CanPickUpLoot": 1,
+  "Fire": -1,
+  "FallDistance": 0.0,
+  "HandItems": [
+    {},
+    {}
+  ],
+  "Air": 300,
+  "ArmorItems": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "CustomName": "{\"text\":\"Marchand\"}",
+  "HurtByTimestamp": 0,
+  "CustomNameVisible": 1,
+  "ForgeCaps": {
+    "armourers_workshop:entity-skin-provider": {
+      "Items": [],
+      "DataVersion": 1
+    }
+  },
+  "Brain": {
+    "memories": {}
+  },
+  "Invulnerable": 1,
+  "Attributes": [
+    {
+      "Base": 0.2505,
+      "Name": "minecraft:generic.movement_speed"
+    }
+  ],
+  "TaterzenNPCTag": {
+    "AmbientSounds": [],
+    "Professions": [
+      {
+        "ProfessionData": {
+          "Trades": {
+            "Recipes": [
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 64,
+                  "id": "minecraft:oak_planks"
+                },
+                "buy": {
+                  "Count": 32,
+                  "id": "coinsje:iron_coin"
+                },
+                "xp": 0
+              },
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 64,
+                  "id": "minecraft:leather"
+                },
+                "buy": {
+                  "Count": 32,
+                  "id": "coinsje:iron_coin"
+                },
+                "xp": 0
+              },
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 64,
+                  "id": "minecraft:bread"
+                },
+                "buy": {
+                  "Count": 16,
+                  "id": "coinsje:iron_coin"
+                },
+                "xp": 0
+              },
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 64,
+                  "id": "minecraft:white_wool"
+                },
+                "buy": {
+                  "Count": 32,
+                  "id": "coinsje:iron_coin"
+                },
+                "xp": 0
+              },
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 64,
+                  "id": "minecraft:glass_pane"
+                },
+                "buy": {
+                  "Count": 32,
+                  "id": "coinsje:iron_coin"
+                },
+                "xp": 0
+              },
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 1,
+                  "id": "minecraft:scute"
+                },
+                "buy": {
+                  "Count": 16,
+                  "id": "coinsje:iron_coin"
+                },
+                "xp": 0
+              },
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 1,
+                  "id": "minecraft:saddle"
+                },
+                "buy": {
+                  "Count": 32,
+                  "id": "coinsje:iron_coin"
+                },
+                "xp": 0
+              },
+              {
+                "buyB": {
+                  "Count": 0,
+                  "id": "minecraft:air"
+                },
+                "specialPrice": 0,
+                "demand": 0,
+                "rewardExp": 1,
+                "maxUses": 2147483647,
+                "priceMultiplier": 0.0,
+                "uses": 0,
+                "sell": {
+                  "Count": 1,
+                  "tag": {
+                    "Damage": 0
+                  },
+                  "id": "minecraft:elytra"
+                },
+                "buy": {
+                  "Count": 64,
+                  "id": "coinsje:netherite_coin"
+                },
+                "xp": 0
+              }
+            ]
+          }
+        },
+        "ProfessionType": "tradernpcs:trader"
+      }
+    ],
+    "Behaviour": "PASSIVE",
+    "DeathSounds": [
+      "entity.player.death"
+    ],
+    "CommandGroups": {
+      "Contents": [],
+      "GroupIndex": 0
+    },
+    "Messages": [],
+    "Pose": "STANDING",
+    "Follow": {
+      "Type": "NONE"
+    },
+    "LockedBy": [
+      1792463842,
+      -1993064323,
+      -1914261622,
+      -740227640
+    ],
+    "skin": {
+      "signature": "j3fU4ABysEdrjuop0EYFhxXM5rqn/w0qP6EHaZ57Hm5Q/UE5K5NTugRp5GSc160nKoQP0q2Jj89qFOgoapBz6tfqmwb62fsPQAr0Dzd4sCbajf4Hus1ok5b/Q6/PqZpT93GyDtyF7ntgcgE9LR9+QrPxn6D1JUeCaMWiRbvXDZoba4Zcfym3HTL6DESk4hUApYomJoE4sizQayxVtlBPeB9xHOrBr+tKt156OGynfMcZSbYBsHlYGZcFGkkPrqbe4ux0kVgoUv9YvHE6yobn0msTVZxDGh7eoD+Oj+VC6aI1VrpdQe4P+iRRBqYh2D4SrpU8rKPtqF/VEHQWQpYs8aPJxJa09zIft4ocTd29QlcAJnwGWwrG4h8uIgkjxEOXe6m9N6HHAPdxJS5HkZ2hFEkOrjl6SPlKtfr6Ccg8hk2dZ9o+wbsuRTDCx4G4hX86kAiXp/eCgl3xvkoigJquV5Albu5xtMRMoyxqRHsPxrQvJ2vgn1h6SGGgb7YR3SBzj/s8TRPzM4YhLWIUFS+qGXC6ttXP2wcquSpAA4o8AUCmejAothRFhvHZZKIbhPkVFiy6XFUOR6rxGy2WAN/0cwvNAQExiMR0zOTEP//JlFzBQxlrQ6ROWljT3MBpia/lUD/rRDGIpGLayABF/V+i0DiydP+t137fIBveofDrVW4=",
+      "value": "ewogICJ0aW1lc3RhbXAiIDogMTY3MjQxMjIyMDM4MywKICAicHJvZmlsZUlkIiA6ICI3YzI2YTAxY2U4NjU0NDkzOTA3NzA2OGQxZTA5ZjE5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJodG93ZXI4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q1OTZlN2Q4OWYwNWYyMmFiYTUwODYyNmE5Y2Y2NWUxZjEzMGUyNzIxZDFjNGQ4NmVhYjc3NWE5OTA5N2U2MzIiCiAgICB9CiAgfQp9"
+    },
+    
+    "SkinLayers": 127,
+    "BodyRotations": {
+      "YRot": 48.000244,
+      "XRot": 8.8501625
+    },
+    "PermissionLevel": 4,
+    "movement": "NONE",
+    "Tags": {},
+    "PathTargets": [],
+    "HurtSounds": [
+      "entity.player.hurt"
+    ],
+    "MinCommandInteractionTime": 0
+  },
+  "AbsorptionAmount": 0.0,
+  "OnGround": 0,
+  "LeftHanded": 0,
+  "DeathTime": 0
+}

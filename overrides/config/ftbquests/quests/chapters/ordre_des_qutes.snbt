@@ -1,0 +1,424 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ordre_des_qutes"
+	group: "6A1007D165513828"
+	icon: "minecraft:nether_star"
+	id: "2569D410C1D45DD6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "47C87F4E32463B74"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				icon: "malum:hallowed_spirit_resonator"
+				id: "7B3FA5053E0A3950"
+				title: "Ordre des quêtes"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"44647DA1A8FD34CB"
+				"6F38247FBCCD2F4B"
+				"089E6F427AAD4D44"
+				"15E21CE77D88B5DC"
+				"18C15A90726E29E8"
+				"7AE69AC82CBDD1A7"
+				"3E8F91542E095084"
+				"3DF42DAD2115DA42"
+				"6EAB12CF2A6A7954"
+				"5F6943E7D7AB3D23"
+				"1FCDB9E301019186"
+				"014B178B30C96B98"
+				"40B4B1BDA27E1694"
+				"3C3C5D6E8CBA1A65"
+				"793BD375E451740F"
+				"29B7D1E99B76B9B3"
+				"6E42C3EDE4964A66"
+				"51504426BB50AA56"
+				"23FBD08534935AC9"
+				"3A2167310DE3F8AA"
+				"25CC406E6047FDFA"
+				"0BC04E542937A951"
+				"7AD4D470C4CCD543"
+				"79C0B7269387A2CE"
+				"6DED608B381DC5D2"
+				"4FCC2E261E69BABD"
+				"557C009D353C1E14"
+				"7D3078CDD892FBB5"
+				"11C0F6E50C5229A1"
+				"6FD119F2491B9147"
+				"753A9B7BE86D2ABD"
+				"30BDA91D47094C24"
+				"2D6CB38C430F18C3"
+				"316AED8760725C21"
+				"21178B12A79803F1"
+				"4BA18222A911A6C5"
+				"0DF8E7E1CBFC1C9E"
+				"4DBDCAD888DE1297"
+				"6FCD341E7268AC94"
+				"678937752ABFB2FA"
+				"3485A682D46CFC0D"
+				"0BB15A0B51FB0D08"
+			]
+			icon: "malum:arcane_spirit"
+			id: "7BFADD5D1118F5F5"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "7A01D6DC34B8369C"
+				player_command: false
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4776FB76A0F7EF82"
+				title: "Erudit"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"447CC82CD451802A"
+				"50A7E9F33AB06E6F"
+				"363FFF7284683FDB"
+				"57A36EA3C2DC9703"
+				"285838D0D31B727C"
+				"77F422A355457A2B"
+				"0CA2BF4C454F20C7"
+				"475A4AF432BAFAE3"
+				"3D9BAD429FBF26C1"
+				"7BB908E93CA088E6"
+				"69469B224200057A"
+				"4C6FB4EC00411ACD"
+				"1DD7CE248B6A1A9A"
+				"3559AE732E175D55"
+				"70F2BAE95CBFCDD7"
+				"5C3100FEA025C5D6"
+				"286C2291C0A58049"
+				"4785B01B5C404D80"
+				"50D84E3D4816094B"
+				"2247A6294A584D89"
+				"364B87BBCF5A4601"
+				"0DEEF10E2F718277"
+				"73AC7311EEF08DC8"
+				"63FCCDBD9E5E37D3"
+				"78833B649F86431F"
+				"04418D4A8B48A075"
+				"0264B74E5639AC31"
+				"75A7898FD29D1340"
+				"67BB9BF0557B862B"
+				"78E94A5EE2BB682A"
+				"6AABFAE06AC7CDBF"
+				"7F31D5BAC83FB44D"
+				"6C4A77FA4A63992F"
+				"6954BBD59EC3377D"
+				"7AE56F43347480E7"
+				"6BADDCA0074D3680"
+				"3E6BB7871E3EF7EF"
+			]
+			icon: "create:wrench"
+			id: "27AD8ABFD290A6D0"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "2A59727CF6EAF903"
+				player_command: false
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "59C1891BE03EEDD6"
+				title: "Ingénieur"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"447CC82CD451802A"
+				"50A7E9F33AB06E6F"
+				"363FFF7284683FDB"
+				"57A36EA3C2DC9703"
+				"285838D0D31B727C"
+				"77F422A355457A2B"
+				"0CA2BF4C454F20C7"
+				"475A4AF432BAFAE3"
+				"3D9BAD429FBF26C1"
+				"7BB908E93CA088E6"
+				"69469B224200057A"
+				"4C6FB4EC00411ACD"
+				"1DD7CE248B6A1A9A"
+				"3559AE732E175D55"
+				"70F2BAE95CBFCDD7"
+				"5C3100FEA025C5D6"
+				"286C2291C0A58049"
+				"4785B01B5C404D80"
+				"50D84E3D4816094B"
+				"2247A6294A584D89"
+				"364B87BBCF5A4601"
+				"0DEEF10E2F718277"
+				"73AC7311EEF08DC8"
+				"63FCCDBD9E5E37D3"
+				"78833B649F86431F"
+				"04418D4A8B48A075"
+				"0264B74E5639AC31"
+				"75A7898FD29D1340"
+				"67BB9BF0557B862B"
+				"78E94A5EE2BB682A"
+				"6AABFAE06AC7CDBF"
+				"7F31D5BAC83FB44D"
+				"6C4A77FA4A63992F"
+				"6954BBD59EC3377D"
+				"7AE56F43347480E7"
+				"6BADDCA0074D3680"
+				"3E6BB7871E3EF7EF"
+			]
+			icon: "minecraft:deepslate_diamond_ore"
+			id: "75E409986A7B9703"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "74000CC90D788CC8"
+				player_command: false
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0846BCB09633AAAC"
+				title: "Mineur"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"302A0DD96C9A3802"
+				"741015A3E2E32AB3"
+				"5A8CB9AA8020A122"
+				"0971ADD66DD98E37"
+				"41C6131E9B6BE1ED"
+				"59871034B7EBF2F7"
+				"7863A81F43D808DF"
+				"51A5E7266B36A85D"
+				"432DE6E478C27359"
+				"457CA80F2A314EE2"
+				"616FDEC37AADF34F"
+				"298095D5CEF2F99C"
+				"0A1E0F24116F9E76"
+				"1079A36B8BD92262"
+				"2836D9CC9FA1D633"
+				"74125E4850881999"
+			]
+			disable_toast: true
+			icon: "minecraft:diamond_horse_armor"
+			id: "3C16CC29436BFD93"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "05B0D84A89B395FE"
+				player_command: true
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1E4E1B18AC0A5E5C"
+				title: "Explorateur"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"013B789AE55C718E"
+				"1F6F8FFC4CB78639"
+				"310AC61B1D507856"
+				"7D43AD1BA3DDE827"
+				"06D8DCD6C58DD8DD"
+				"5491390F075F6E88"
+				"21569E957011E7D3"
+				"2A53B0C2DF4939AF"
+				"6D8AD935666731B1"
+				"6A4CB81A6A1559BB"
+				"7D15E4A1F13567B7"
+				"51008FF9B4DA323D"
+				"00A9263F42D7FF63"
+				"0CA0EE083BD0E4A7"
+				"38B3CED83542B768"
+				"44F08D47FF1ED217"
+				"40B12AE2EAAF6B2F"
+				"7877B31FE59B736D"
+				"6F18DAFA3132919E"
+				"7C59925BF048D221"
+				"58171070BDFD8121"
+				"6A6DF0080A41D5DC"
+				"5829BD79260414A7"
+				"68938DD09E17C1C5"
+				"5E65FF61B93D9F26"
+				"438CA40AFB4F6BA8"
+				"2C36FBBAFBC614C9"
+				"5F979F623D042854"
+				"08DD9EFF9A42B029"
+				"60923AED6AEC7403"
+				"0FD811E7F869F3CD"
+				"190DF80355600AF9"
+				"795871B773383BAF"
+				"778454872AF15D18"
+			]
+			icon: "minecraft:wheat"
+			id: "651DA07603947408"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "3E247B2DF8FB415A"
+				player_command: false
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4E4946D8D2401E51"
+				title: "Paysan"
+				type: "checkmark"
+			}]
+			title: "Paysan"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"443F4DD67B111B80"
+				"3C0F7DEB2D30563A"
+				"72B682FCF3724696"
+				"561EECDD319A0F21"
+				"2F9C41CBFCCF3A76"
+				"3204899CF0994651"
+				"2A9B3C2DB28F2A23"
+				"7631FFC0F7BC40B4"
+				"799515E803CA03F7"
+				"4A96FF6CD3697BA1"
+				"74A153FFBB7A46D8"
+				"0C4A50B80BC4DB93"
+				"32C30F53B746D6FB"
+				"096B8CAF22128B30"
+				"406393697BD1A115"
+				"275C3AC25A93B84F"
+				"03667E08261C9864"
+				"0BD2EDEF598FDD2E"
+				"332D579B997AFDC9"
+				"57B4D69C0B4BFA3C"
+				"573343AAE6A97797"
+				"3B3C40E5CCC7CF6F"
+				"10E8F3F94F1363A1"
+				"4E5B15388A43C093"
+				"427D91040C0552E1"
+				"20221C6C7CDB86FB"
+				"186DC37E72D07767"
+				"29D321D8749BBAC5"
+			]
+			icon: "minecraft:respawn_anchor"
+			id: "1398AD35D227F52F"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "63E00A8903AA3983"
+				player_command: false
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "356A0C2A12FDBEBE"
+				title: "Buildeur"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			icon: "calemieconomy:coin_gold"
+			id: "6C95C8E60583DF46"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "548543B6E1D1BA1D"
+				player_command: false
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "388176E612CC42A0"
+				title: "Commerçant"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"42BE15D897C715B8"
+				"3EEEA8ED35FB1AD2"
+				"31479CDF80B0FE4E"
+				"0C76E6F7B7A138AB"
+				"2781CF1FFF1E3691"
+				"0E8ADB45FA2CCA14"
+				"4B9E092E003293EC"
+				"25711B96016EEA2E"
+				"69633B05E980E3D1"
+				"67FA50E714D13BEB"
+				"3F24D9FBF6217BE6"
+				"206DDF87EF1466FA"
+				"7525A451F11CD3EC"
+				"36DC9709ED5FFF40"
+				"1D9F9443EB491643"
+				"33DDE32F501A6B3C"
+				"585A769D796B26FC"
+				"7E6BEFF74577D09C"
+				"15EB4932BFE0BA13"
+				"02C56F1826123339"
+				"01F73C991DE81669"
+				"14F973D566A37645"
+				"19770513A745269F"
+				"10F93A193610973A"
+				"5B8CF1D2E772B9DF"
+				"1A7D84929DDF6110"
+				"410717F9E5619D9D"
+				"2D0A97A47618F9D1"
+				"147EB5EC551B7257"
+				"2F82041AE9818F34"
+				"04FF9A54F333FB13"
+				"6F524B760C0FF2FA"
+				"160789949756B9A5"
+				"7534587F992540A0"
+				"4406CC4E32FB70A4"
+			]
+			icon: "malum:cracked_gold_impetus"
+			id: "577D8A206BB3670C"
+			rewards: [{
+				command: "/scoreboard players set @s guild 0"
+				icon: "minecraft:nether_star"
+				id: "06BD10CA77338F1F"
+				player_command: false
+				title: "commencez une autre quête"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4BA26908E621122A"
+				title: "VIP"
+				type: "checkmark"
+			}]
+			title: "VIP"
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Ordre des quêtes"
+}

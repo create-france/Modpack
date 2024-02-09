@@ -1,0 +1,763 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ingnieurs"
+	group: "6A1007D165513828"
+	icon: "create:wrench"
+	id: "7104CB3DD26E67AE"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "447CC82CD451802A"
+			rewards: [{
+				count: 5
+				id: "61E0452C3DE99960"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "75C195F9903EF41C"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4785B01B5C404D80"]
+			id: "50A7E9F33AB06E6F"
+			rewards: [{
+				count: 10
+				id: "0B8DBAED722DEE04"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "0981684F21957AAC"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4785B01B5C404D80"]
+			id: "363FFF7284683FDB"
+			rewards: [{
+				count: 10
+				id: "4E57DB77917C754C"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "1B4A071E45F13BB0"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "57A36EA3C2DC9703"
+			rewards: [{
+				count: 5
+				id: "0F20AF8799CAB17E"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "3E8F84E5C5CD62C5"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["447CC82CD451802A"]
+			id: "285838D0D31B727C"
+			rewards: [{
+				count: 5
+				id: "00EF371172E85B45"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "64E4A4AB51A65C08"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["447CC82CD451802A"]
+			id: "77F422A355457A2B"
+			rewards: [{
+				count: 10
+				id: "0B176011ED97013E"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "10F0C44963B2583F"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["447CC82CD451802A"]
+			id: "0CA2BF4C454F20C7"
+			rewards: [{
+				count: 5
+				id: "7611B4255DEA76D1"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "585AD16D5A1CE3DE"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["447CC82CD451802A"]
+			id: "475A4AF432BAFAE3"
+			rewards: [{
+				count: 10
+				id: "1B4EB62A26454D86"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "36888A8EFB2129CB"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "3D9BAD429FBF26C1"
+			rewards: [{
+				count: 10
+				id: "08611EC8553965D7"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "10DAB704451482DF"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D9BAD429FBF26C1"]
+			id: "7BB908E93CA088E6"
+			rewards: [{
+				count: 10
+				id: "4E960BDAE636870A"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "1B55BE731517C6F5"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "69469B224200057A"
+			rewards: [{
+				count: 10
+				id: "1A53A02E705F7F9D"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "589DC176DA4E09EB"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70F2BAE95CBFCDD7"]
+			id: "4C6FB4EC00411ACD"
+			rewards: [{
+				count: 10
+				id: "276627EDC5DC10EB"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "2A2C2A12E835762A"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C6FB4EC00411ACD"]
+			id: "1DD7CE248B6A1A9A"
+			rewards: [{
+				count: 10
+				id: "36E6D4AE4197B41B"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "344ADA913B847DE0"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: 8.628571428571426d
+			y: 1.4071428571428513d
+		}
+		{
+			dependencies: [
+				"7BB908E93CA088E6"
+				"1DD7CE248B6A1A9A"
+			]
+			id: "3559AE732E175D55"
+			rewards: [{
+				count: 10
+				id: "219339F185F5C7D0"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "420B2649ED1EF6AA"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69469B224200057A"]
+			id: "70F2BAE95CBFCDD7"
+			rewards: [{
+				count: 10
+				id: "7C0DC08189901AF2"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "1A57E970CA67B69D"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0DEEF10E2F718277"]
+			id: "5C3100FEA025C5D6"
+			rewards: [
+				{
+					count: 50
+					id: "7C22093C543B42A3"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 50
+					id: "5B0CC811B811AC3A"
+					item: "calemieconomy:coin_platinum"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				consume_items: true
+				id: "7BC0829602D6DBDB"
+				item: "industrializedcreate:ultimate_compressed_cobblestone"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57A36EA3C2DC9703"]
+			id: "286C2291C0A58049"
+			rewards: [{
+				count: 10
+				id: "35D1C989F9695ABF"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "67964F13AE1A512F"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "4785B01B5C404D80"
+			rewards: [{
+				count: 10
+				id: "0BEDCC8A7117CF13"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "6E721C109EE95E4E"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["286C2291C0A58049"]
+			id: "50D84E3D4816094B"
+			rewards: [{
+				count: 10
+				id: "3D9DAE5DC3F7FE01"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "710CD5AC6D075EC6"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["286C2291C0A58049"]
+			id: "2247A6294A584D89"
+			rewards: [{
+				count: 10
+				id: "08E57B30CF889139"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "7241511F2FAA2FF0"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["286C2291C0A58049"]
+			id: "364B87BBCF5A4601"
+			rewards: [{
+				count: 10
+				id: "6BFF5CF4606C62E0"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "67CB090251D25D2B"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3559AE732E175D55"]
+			id: "0DEEF10E2F718277"
+			rewards: [{
+				count: 20
+				id: "5EDC1FAEBF901C60"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "4D8C9171044E9B7B"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "73AC7311EEF08DC8"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				icon: "create:wrench"
+				id: "327AC7E4B8A68D9E"
+				title: "Ingénieur"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "63FCCDBD9E5E37D3"
+			rewards: [{
+				count: 5
+				id: "079152463066B210"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "078D1F2451F172BA"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "78833B649F86431F"
+			rewards: [{
+				count: 10
+				id: "2D15ABDE2D2FB014"
+				item: "calemieconomy:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "56F59F989EBDBF38"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78833B649F86431F"]
+			id: "04418D4A8B48A075"
+			rewards: [{
+				count: 10
+				id: "24328C398F49720A"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "1BC123DACDC5B15E"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["78833B649F86431F"]
+			id: "0264B74E5639AC31"
+			rewards: [{
+				count: 10
+				id: "6E6D42454A56C246"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "58002DFC6D819CE9"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["78833B649F86431F"]
+			id: "75A7898FD29D1340"
+			rewards: [{
+				count: 10
+				id: "75B70ACF74AA7B2F"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "2233EAC974CADA24"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4785B01B5C404D80"]
+			id: "67BB9BF0557B862B"
+			rewards: [{
+				count: 10
+				id: "7FE74678C2D8EFAF"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "4EB552F55E1D8687"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4785B01B5C404D80"]
+			id: "78E94A5EE2BB682A"
+			rewards: [{
+				count: 10
+				id: "58572958B8BFFE91"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "23EA1666733DDA1D"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["286C2291C0A58049"]
+			id: "6AABFAE06AC7CDBF"
+			rewards: [{
+				count: 10
+				id: "47392EA5BF8A4B72"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "34BA634C0FC80705"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["286C2291C0A58049"]
+			id: "7F31D5BAC83FB44D"
+			rewards: [{
+				count: 10
+				id: "2447040B079890FF"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "64E865EA55A2E9F7"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["63FCCDBD9E5E37D3"]
+			id: "6C4A77FA4A63992F"
+			rewards: [{
+				count: 5
+				id: "3642FD381C38895E"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "722FD33ABDF2EF78"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63FCCDBD9E5E37D3"]
+			id: "6954BBD59EC3377D"
+			rewards: [{
+				count: 5
+				id: "6E29033209A1D129"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "12FAF391D9A7FB81"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BADDCA0074D3680"]
+			id: "7AE56F43347480E7"
+			rewards: [{
+				id: "63C465FA98B24C1E"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "10233BCE4796CBD3"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["73AC7311EEF08DC8"]
+			id: "6BADDCA0074D3680"
+			rewards: [{
+				id: "46F142672DCF93D0"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7E45808419717B57"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BADDCA0074D3680"]
+			id: "3E6BB7871E3EF7EF"
+			rewards: [{
+				id: "556FD36A8DB73B23"
+				item: "calemieconomy:coin_platinum"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4C498B5D35543792"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+	]
+	title: "ingénieur"
+}
