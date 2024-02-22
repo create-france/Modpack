@@ -1,17 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "   ",
-        " S ",
-        "   "
-    ],
-    "key": {
-        "S": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
             "item": "minecraft:nether_star"
         }
-    },
+    ],
     "result": {
         "item": "progressivebosses:nether_star_shard",
-        "amount": 9
+        "count": 9
     }
 }
