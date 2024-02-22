@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "fabricaeexnihilo:salt_bottle"
+        },
+        {
+            "amount": 81000,
+            "fluid": "minecraft:water",
+            "nbt": {}
+        }
+    ],
+    "results": [
+        {
+            "amount": 81000,
+            "fluid": "fabricaeexnihilo:brine"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ]
+}
