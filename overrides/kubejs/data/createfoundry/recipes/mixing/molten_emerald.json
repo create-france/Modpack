@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_nugget"
+        },
+        {
+            "item": "minecraft:quartz"
+        },
+        {
+            "item": "create:experience_nugget"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        }
+    ],
+    "results": [
+        {
+            "fluid": "createfoundry:molten_emerald",
+            "amount": 16200
+        }
+    ],
+    "heatRequirement": "superheated"
+}

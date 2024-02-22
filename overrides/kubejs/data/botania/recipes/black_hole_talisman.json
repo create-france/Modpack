@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SIS",
+        "IAI",
+        "SIS"
+    ],
+    "key": {
+        "S": {
+            "item": "botania:life_essence"
+        },
+        "I": {
+            "item": "botania:dragonstone"
+        },
+        "A": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "botania:black_hole_talisman"
+    }
+}

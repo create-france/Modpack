@@ -1,0 +1,36 @@
+{
+    "type": "create_jetpack:copy_nbt_mechanical_crafting",
+    "pattern": [
+        "  S  ",
+        " PXP ",
+        "PYNYP",
+        "PCECP",
+        " C C "
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:elytra"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "C": {
+            "item": "create:chute"
+        },
+        "X": {
+            "item": "create:copper_backtank"
+        },
+        "S": {
+            "item": "create:shaft"
+        },
+        "Y": {
+            "item": "create:precision_mechanism"
+        },
+        "P": {
+            "item": "create:brass_sheet"
+        }
+    },
+    "result": {
+        "item": "create_jetpack:jetpack"
+    }
+}

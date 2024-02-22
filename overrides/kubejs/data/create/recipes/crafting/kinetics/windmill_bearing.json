@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "ACA",
+        "AIA"
+    ],
+    "key": {
+        "B": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "C": {
+            "tag": "forge:stone"
+        },
+        "I": {
+            "item": "create:shaft"
+        },
+        "A": {
+            "item": "create:iron_sheet"
+        }
+    },
+    "result": {
+        "item": "create:windmill_bearing"
+    }
+}

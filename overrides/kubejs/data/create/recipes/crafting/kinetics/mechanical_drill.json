@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "BAA ",
+        "IECA",
+        "BAA "
+    ],
+    "key": {
+        "A": {
+            "item": "create:iron_sheet"
+        },
+        "I": {
+            "item": "create:andesite_casing"
+        },
+        "B": {
+            "item": "create:cogwheel"
+        },
+        "E": {
+            "item": "create:precision_mechanism"
+        },
+        "C": {
+            "item": "minecraft:iron_pickaxe"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_drill"
+    }
+}

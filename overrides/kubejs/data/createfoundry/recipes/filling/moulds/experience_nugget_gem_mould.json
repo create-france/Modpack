@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "createfoundry:empty_gem_mould"
+        },
+        {
+            "fluid": "create_enchantment_industry:experience",
+            "nbt": {},
+            "amount": 59049
+        }
+    ],
+    "results": [
+        {
+            "item": "createfoundry:experience_nugget_gem_mould"
+        }
+    ]
+}

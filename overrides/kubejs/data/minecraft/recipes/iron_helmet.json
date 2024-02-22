@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "create:iron_sheet"
+        },
+        "B": {
+            "item": "minecraft:chainmail_helmet"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_helmet"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "createfoundry:experience_nugget_gem_mould"
+        }
+    ],
+    "results": [
+        {
+            "item": "create:experience_nugget"
+        },
+        {
+            "item": "createfoundry:empty_gem_mould"
+        }
+    ]
+}

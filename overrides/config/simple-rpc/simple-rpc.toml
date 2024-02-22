@@ -34,11 +34,11 @@
 	#The buttons to display on Discord
 	[[init.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[init.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #The Main Menu event
 [main_menu]
@@ -60,11 +60,11 @@
 	#The buttons to display on Discord
 	[[main_menu.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[main_menu.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #The Server List event
 [server_list]
@@ -86,11 +86,11 @@
 	#The buttons to display on Discord
 	[[server_list.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[server_list.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #The Realms Screen event
 [realms_list]
@@ -112,11 +112,11 @@
 	#The buttons to display on Discord
 	[[realms_list.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[realms_list.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #The Join Game Event
 [join_game]
@@ -138,11 +138,11 @@
 	#The buttons to display on Discord
 	[[join_game.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[join_game.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #The Single Player Event
 [single_player]
@@ -164,11 +164,11 @@
 	#The buttons to display on Discord
 	[[single_player.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[single_player.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #The Multi Player Event
 [multi_player]
@@ -190,11 +190,11 @@
 	#The buttons to display on Discord
 	[[multi_player.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[multi_player.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #The Realms Game Event
 [realms]
@@ -216,11 +216,11 @@
 	#The buttons to display on Discord
 	[[realms.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[realms.buttons]]
-		label = "Notre boutique"
-		url = "https://createfrance.tip4serv.com"
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #Fallback event for disabled events
 [generic]
@@ -240,11 +240,11 @@
 	#The buttons to display on Discord
 	[[generic.buttons]]
 		label = "Rejoindre l'aventure"
-		url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+		url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 	[[generic.buttons]]
-		label = "Notre boutique"
-		url = ""
+		label = "discord"
+		url = "https://discord.gg/8vDn4NjRU6"
 
 #Custom Config Variables that you can use
 [custom]
@@ -278,11 +278,11 @@
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Rejoindre l'aventure"
-			url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+			url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Notre boutique"
-			url = "https://createfrance.tip4serv.com"
+			label = "discord"
+			url = "https://discord.gg/8vDn4NjRU6"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -303,11 +303,11 @@
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Rejoindre l'aventure"
-			url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+			url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Notre boutique"
-			url = "https://createfrance.tip4serv.com"
+			label = "discord"
+			url = "https://discord.gg/8vDn4NjRU6"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -328,9 +328,9 @@
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Rejoindre l'aventure"
-			url = "https://www.curseforge.com/minecraft/modpacks/althiar"
+			url = "https://www.curseforge.com/minecraft/modpacks/create-france-mc"
 
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Notre boutique"
-			url = "https://createfrance.tip4serv.com"
+			label = "discord"
+			url = "https://discord.gg/8vDn4NjRU6"
 

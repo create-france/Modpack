@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "guild_paysanne"
-	group: "6A1007D165513828"
+	group: ""
 	icon: "minecraft:wheat"
 	id: "55F9C8978AFBB475"
 	order_index: 0

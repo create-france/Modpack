@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BIB",
+        "IAI",
+        "BIB"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:campfire"
+        },
+        "I": {
+            "item": "create:iron_sheet"
+        },
+        "B": {
+            "item": "minecraft:netherrack"
+        }
+    },
+    "result": {
+        "item": "create:empty_blaze_burner"
+    }
+}

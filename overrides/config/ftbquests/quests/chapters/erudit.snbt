@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "erudit"
-	group: "6A1007D165513828"
+	group: ""
 	icon: "malum:arcane_spirit"
 	id: "683BA8AA869B219C"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

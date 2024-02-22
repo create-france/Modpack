@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ordre_des_qutes"
-	group: "6A1007D165513828"
+	group: ""
 	icon: "minecraft:nether_star"
 	id: "2569D410C1D45DD6"
-	order_index: 6
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -391,14 +391,6 @@
 				"5B8CF1D2E772B9DF"
 				"1A7D84929DDF6110"
 				"410717F9E5619D9D"
-				"2D0A97A47618F9D1"
-				"147EB5EC551B7257"
-				"2F82041AE9818F34"
-				"04FF9A54F333FB13"
-				"6F524B760C0FF2FA"
-				"160789949756B9A5"
-				"7534587F992540A0"
-				"4406CC4E32FB70A4"
 			]
 			icon: "malum:cracked_gold_impetus"
 			id: "577D8A206BB3670C"

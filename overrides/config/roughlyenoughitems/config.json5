@@ -9,7 +9,10 @@
 			"{id:\"ftbchunks:claim_chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map; tint\\\\u003d#FF80FFFF\",\"x\":400,\"click\":\"ftbchunks:open_claim_gui\"}',type:\"ftblibrary:sidebar_button\"}",
 			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
 			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}"
+			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{data:{Count:1b,id:\"create:copper_backtank\",tag:{},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"create:netherite_backtank\",tag:{},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"gravestones:gravestone\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
 		"displayHistory": [],

@@ -1,0 +1,13 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "item": "minecraft:coarse_dirt"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:dirt"
+        }
+    ]
+}

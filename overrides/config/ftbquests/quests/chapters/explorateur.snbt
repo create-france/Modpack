@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "explorateur"
-	group: "6A1007D165513828"
+	group: ""
 	icon: "minecraft:diamond_horse_armor"
 	id: "794B2BADC787146B"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

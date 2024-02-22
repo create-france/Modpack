@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AB ",
+        "   ",
+        "   "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:gunpowder"
+        },
+        "A": {
+            "item": "minecraft:charcoal"
+        }
+    },
+    "result": {
+        "item": "supplementaries:ash"
+    }
+}

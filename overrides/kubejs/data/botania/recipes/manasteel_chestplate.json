@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "botania:manasteel_ingot"
+        },
+        "B": {
+            "item": "minecraft:netherite_chestplate"
+        }
+    },
+    "result": {
+        "item": "botania:manasteel_chestplate"
+    }
+}
