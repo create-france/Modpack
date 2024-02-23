@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1  ",
+        "212"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:oak_planks"
+        },
+        "2": {
+            "item": "minecraft:oak_fence"
+        }
+    },
+    "result": {
+        "item": "luphieclutteredmod:small_shelf",
+        "count": 1
+    }
+}
