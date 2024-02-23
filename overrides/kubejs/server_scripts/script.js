@@ -2196,32 +2196,6 @@ ServerEvents.recipes((event) => {
     ],
   });
 
-  //copper backtank
-  event.custom({
-    type: "minecraft:crafting_shaped",
-    pattern: [" I ", "LAL", "SDS"],
-    key: {
-      L: {
-        item: "minecraft:copper_block",
-      },
-      D: {
-        item: "create:precision_mechanism",
-      },
-      S: {
-        item: "minecraft:piston",
-      },
-      I: {
-        item: "create:rose_quartz_lamp",
-      },
-      A: {
-        item: "minecraft:nether_star",
-      },
-    },
-    result: {
-      item: "create:copper_backtank",
-    },
-  });
-
   //noel
   event.custom({
     type: "minecraft:crafting_shaped",
