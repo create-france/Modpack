@@ -15,6 +15,7 @@ ServerEvents.recipes((event) => {
 
     event.remove({ id: "create:crafting/materials/zinc_ingot_from_compacting" });
     event.remove({ id: "create:crafting/materials/brass_ingot_from_compacting" });
+    event.remove({ id: "create:crafting/materials/copper_ingot" });
 
     event.remove({ id: "create:mixing/brass_ingot" });
 
